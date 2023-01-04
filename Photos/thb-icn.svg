@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="21" viewBox="0 0 30 21">
+  <defs>
+    <pattern id="pattern" width="1" height="1" patternTransform="matrix(-1, 0, 0, 1, 60, 0)" viewBox="0 0 30 21">
+      <image preserveAspectRatio="none" width="30" height="21" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAVCAYAAABR915hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGfSURBVEhL5ZZBSwJBFMf/s6uWmmlFhQlReA0qCKQOHbp1j26dPITVISkpqC/QraMEQV2qbxN06RCEZRRSsppuVuvu9CZGiIgW2m079BsWHm8WfjDvMfOYdX7Bkd0AK90D4RAARp+kDuyP0nbKQldN5n4I5xy60UC8sxfH8ztg1twCZ6dnQCwmduVvEpLlxzkyUxa6HYoFjFa5UcHk4BgUdlv6WvoLcFo9wRiutTsoUBVPpC2E3KeoJGYfauoRjJyMT89y1HWZ+kRdxe7IE7ITNTCK3SIWjNiIqxYOUu1IzwSRpNgtOgIhG3GhiEZuCdXNdai6JpPOEMfcNAwb8WUB2M4Baysy4RJ0eNTS3mOYxt+IBf9L7Pf7bZrrqojnbAaPWzmo5bJMOkN0tWHb1ZzhRG1i1WdgiGK3CIfDNmJ/G/boQl98uEGfLyCTzolGozZixYfDlyrSDQ1Jit0iEolQc3n4MrUQQ4ECk64RD18o0VymaULhA/1ApeKJXEg1TUMikaDR57uZi+p69FrFMo0rww5r/D5z6Tri8Tjy+TzeAGdyrYVZOmdyAAAAAElFTkSuQmCC"/>
+    </pattern>
+  </defs>
+  <g id="Group_349" data-name="Group 349" transform="translate(-13 -587)">
+    <rect id="Image_2" data-name="Image 2" width="30" height="21" transform="translate(13 587)" fill="url(#pattern)"/>
+  </g>
+</svg>

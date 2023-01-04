@@ -1,0 +1,324 @@
+@charset "utf-8";
+/* CSS Document */
+body, p { margin: 0; padding: 0; font-family: 'Lato', sans-serif;}
+:root {
+  --darkblue_pro: #121860;
+  --blue_pro: #002287;
+  --lightblue_pro: #1273df;
+  --white_pro: #ffffff;
+  --grey_pro: #e2e2e2;
+  --golden_pro: #ffcc2b;
+  --lightbg_pro: #f1f7fa;
+  --bgblue_pro: #07053D;
+}
+.clr {clear:both}
+
+
+
+
+.pro-member{overflow-x: hidden;}
+.pro-member .oval-header--mask,.Mpro-member .oval-header--mask {
+    width: 200%;
+    height: 200%;
+    transform: translate(-25%,-51%);
+    border-radius: 0 0 50% 50%;
+    overflow: hidden;
+    border-top: 0;
+    background-color: #07053D;
+    background-image: linear-gradient(to right, var(--darkblue_pro),  var(--lightblue_pro));
+    background-size: cover;
+}
+.pro-member .flimm, .pro-member .newHeaderLogo,.Mpro-member .newHeaderLogo {
+    width: 94px;
+    height: 38px;
+    background: url(img/emt-pro-logo.svg);
+    background-size: 100%;
+    margin: 7px auto;
+    background-repeat: no-repeat;
+}
+.pro-member .bar2 {
+    width: 12px;
+    margin: 0;
+}
+.pro-member .manuicn {
+    float: left;
+    margin-top: 3px;
+}
+.pro-member .tophalf_v3 {
+    width: 100%;
+    padding: 20px 0px 20px 0;
+	background-image: linear-gradient(to right, var(--darkblue_pro),  var(--lightblue_pro));
+	color: var(--white_pro);
+}
+.pro-member .closemenu_v3 {
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    color: var(--white_pro);
+    text-decoration: none;
+}
+
+.pro-member .logtext_v3 {
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    margin: 7px 0 0 0;
+    color: var(--white_pro);
+}
+.pro-member .logsbtxt_v3 {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    margin: 2px 0 0 0;
+    color: var(--white_pro);
+}
+.pro-member .logineml_v3 {
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+    color: var(--white_pro);
+    width: 100%;
+    margin-top: 8px;
+}
+.pro-member  .logintext_v3 {
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    margin: 7px 0 0 0;
+    color: var(--white_pro);
+}
+.pro-member .logbtpnl .userlink {
+    font-size: 12px;
+    color: var(--white_pro);
+}
+.pro-member .mn_icncol {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 15px;
+}
+.pro-member .divider_v3 {
+    width: 100%;
+    height: 1px;
+    background: var(--grey_pro);
+    float: left;
+    margin: auto;
+}
+.pro-member  .usericn_v3 {
+    width: 33px;
+    height: 33px;
+    background: url(img/Icon-crown-pro.svg) no-repeat;
+    background-size:100%;
+    margin: 0 auto;
+    display: block;
+}
+.pro-member .usericn_v3 {
+    width: 40px;
+    height: 40px;
+    background: url(img/Icon-crown-pro-n.svg) no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+    display: block;
+}
+.pro_icn_v1 {
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    background: url(img/Icon-crown-pro.svg) no-repeat 0 0;
+    background-size: 25px 25px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.pro-member .prodtBg {
+    margin: auto;
+}
+.pro-bgcolor {
+    background-image: linear-gradient(to right, var(--darkblue_pro), var(--lightblue_pro));
+    color: var(--white_pro);
+    padding: 20px 15px !important;
+}
+.pro-member  .pro-bgcolor{display:none;}
+.mColtxt_pro {
+	color: var(--white_pro);
+    font-size: 15px;
+    font-weight: 600;
+}
+.mColsbtxt_pro{     color: var(--white_pro);font-size: 11px;}
+
+.color_pro{color:var(--golden_pro);}
+
+.pro-member .fli_n_icn {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    background: url(img/flight-pro.svg) no-repeat 0 14px;
+    background-size: 100%;
+    display: block;
+}
+
+.pro-member .htl_n_icn {
+    width: 38px;
+    height: 40px;
+    margin: 0 auto;
+    background: url(img/hotel-pro.svg) no-repeat 0 12px;
+    background-size: 100%;
+    display: block;
+}
+.pro-member .fph_n_icn, .pro-member .hf_n_icn {
+    width: 35px;
+    height: 40px;
+    margin: 0 auto;
+    background: url(img/flight-hotel-pro.svg) no-repeat 0 9px;
+    background-size: 100%;
+    display: block;
+}
+.pro-member .bus_n_icn {
+    width: 23px;
+    height: 40px;
+    margin: 0 auto;
+    background: url(img/bus-pro.svg) no-repeat 0 10px;
+    background-size: 100%;
+    display: block;
+}
+.pro-member .hld_n_icn_v1 {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    background: url(img/holiday-pro.svg) no-repeat 0 8px;
+    background-size: 100%;
+    display: block;
+}
+.pro-member .cb_n_icn {
+    width: 35px;
+    height: 40px;
+    margin: 0 auto;
+    background: url(img/cab-pro.svg) no-repeat 0 8px;
+    background-size: 100%;
+    display: block;
+}
+.pro-member .tr_n_icn_v1 {
+    width: 33px;
+    height: 40px;
+    margin: 0 auto;
+    background: url(img/train-pro.svg) no-repeat 0 8px;
+    background-size: 100%;
+    display: block;
+}
+.pro-member .cruise-icon_icn, .pro-member .cru_n_icn {
+    width: 28px;
+    height: 40px;
+    margin: 0 auto;
+    background: url(img/cruise-icon-pro.svg) no-repeat 0 8px;
+    background-size: 100%;
+    display: block;
+}
+.pro-member .gift_icn {
+    width: 33px;
+    height: 40px;
+    margin: 0 auto;
+    background: url(img/giftcard-pro.svg) no-repeat 0 11px;
+    background-size: 100%;
+    display: block;
+}
+.pro-member .charter_icn {
+    width: 48px;
+    height: 40px;
+    margin: 0 auto;
+    background: url(img/charters-pro.svg) no-repeat 0 10px;
+    background-size: 100%;
+    display: block;
+}
+.pro-member .my_n_icn {
+    width: 34px;
+    height: 40px;
+    margin: 0 auto;
+    background: url(img/mybooking-pro.svg) no-repeat 0 11px;
+    background-size: 100%;
+    display: block;
+}
+.pro-member .ac_n_icn_v1 {
+    width: 34px;
+    height: 40px;
+    margin: 0 auto;
+    background: url(img/activity-pro.svg) no-repeat 0 11px;
+    background-size: 100%;
+    display: block;
+}
+.pro-member .fs_n_icn {
+    width: 34px;
+    height: 40px;
+    margin: 0 auto;
+    background: url(img/flightstatus-pro.svg) no-repeat 0 11px;
+    background-size: 100%;
+    display: block;
+}
+
+
+.pro-member .actv_nw {
+    border-bottom: 4px solid var(--darkblue_pro);
+}
+.pro-member .pro-rel-offer{position: relative;}
+.pro-member .pro-offer-bg {
+    width: 117%;
+    height: 160px;
+    transform: translate(-12%, 0);
+    border-radius: 0 0 50% 50%;
+    overflow: hidden;
+    position: absolute;
+    color: var(--white_pro);
+    top: 0;
+    border-top: 0;
+    background-color: #07053D;
+    background-image: linear-gradient(to right, var(--darkblue_pro), var(--lightblue_pro));
+    background-size: cover;
+    z-index: -1;
+}
+.pro-member  .mprotitle {
+    font-size: 19px;
+    font-weight: 600;
+    color: var(--white_pro);
+    padding-top: 15px;
+}
+.pro-member  .viewall{color: var(--golden_pro);}
+
+.pro-member .stick_bottom {
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: #242424;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 51px;
+    z-index: 3;
+    box-shadow: 0 -2px 3px #cac4c7;
+}
+.pro-member .fm_icn2 {
+    width: 19px;
+    height: 19px;
+    display: inline-block;
+    background: url(https://www.easemytrip.com/images/mob-web/footer-menu-icons.png) no-repeat -20px 0;
+    background-size: 80px 41px;
+    filter: brightness(0.5) invert(1);
+}
+.pro-member .fm_icn1_act {
+    width: 18px;
+    height: 19px;
+    display: inline-block;
+    background: url(https://www.easemytrip.com/images/mob-web/footer-menu-icons.png) no-repeat 0 0;
+    background-size: 80px 41px;
+    filter: brightness(0) invert(1);
+}
+.pro-member  .hp-menu li .menu_txt {
+    font-size: 12px;
+    line-height: 100%;
+    font-weight: 500;
+    color: #d1d1d1;
+    display: block;
+    padding-top: 5px;
+}
+.pro-member  .footer-hightlight .menu_txt {color: var(--white_pro) !important;}

@@ -1,0 +1,769 @@
+body {
+  margin:0
+}
+
+.sidenav_n2 {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 22;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top:0px;
+  box-shadow: 0 -5px 10px rgba(0,0,0,.35);
+}
+.sidenav_n2 .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.closemenu {font-size:30px;cursor:pointer;position:absolute;top:7px;right:10px;color:#fff;text-decoration:none}
+.editIcon {cursor:pointer;position:absolute;top:12px;right:10px;width:20px;height:20px;display:inline-block;background:url(https://www.easemytrip.com/images/mob-web/sidemenu-icons/pencil-edit-button.svg) no-repeat;background-size:20px 20px;}
+#opct {width:100%;height:100%;position:fixed;background:rgba(0,0,0,0.4);display:none;z-index: 1;top:0}
+.tophalf {background-color: #4eb3ee;width:100%;padding:20px 0px;}
+.user_icno {width:60px;height:60px;background:url(https://www.easemytrip.com/images/mob-web/sidemenu-icons/user.svg) no-repeat;background-size:60px 60px;margin:0 auto;display: block;}
+.logtext {font-size: 16px;font-weight:bold;text-align: center;margin: 10px 0 0 0;color: #fff;width:100%}
+ul.productlist {margin:0;padding:0;display:list-item;list-style:none;}
+ul.productlist li {margin:0;padding:12px 14px 0 14px;display:list-item;list-style:none;}
+ul.productlist li a {font-size:13px;color:#000;text-decoration:none;font-weight: 600;}
+ul.productlist li a i {margin-right:10px}
+.divider {width:100%;height:1px;background:#e2e2e2;float:left;margin:10px 0;}
+.fli_n3_icn {
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    background: url(https://www.easemytrip.com/images/mob-web/sidemenu-icons/flight_nw.svg) no-repeat 0 0;
+    background-size: 32px 32px;
+    display: inline-block;vertical-align: middle;
+}
+.htl_n3_icn {
+    width: 32px;
+    height: 28px;
+    margin: 0 auto;
+    background: url(https://www.easemytrip.com/images/mob-web/sidemenu-icons/hotel_nw.svg) no-repeat 0 -4px;
+   background-size: 30px 30px;
+    display: inline-block;vertical-align: middle;
+}
+.bus_n3_icn {
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    background: url(https://www.easemytrip.com/images/mob-web/sidemenu-icons/bus_nw.svg) no-repeat 0 0;
+    background-size: 30px 30px;
+    display: inline-block;vertical-align: middle
+}
+.hld_n3_icn {
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+    background: url(https://www.easemytrip.com/images/mob-web/sidemenu-icons/holiday_nw.svg) no-repeat 0 0;
+    background-size: 32px 35px;
+    display: inline-block;vertical-align: middle
+}
+.cb_n3_icn {
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+    background: url(https://www.easemytrip.com/images/mob-web/sidemenu-icons/cab_nw.svg) no-repeat 0 0;
+    background-size: 30px 30px;
+    display: inline-block;vertical-align: middle
+}
+.tr_n3_icn {
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    background: url(https://www.easemytrip.com/images/mob-web/sidemenu-icons/train_nw.svg) no-repeat 0 0;
+    background-size: 30px 30px;
+    display: inline-block;vertical-align: middle
+}
+.fs_n3_icn {
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    background: url(https://www.easemytrip.com/images/mob-web/sidemenu-icons/flight_status_nw.svg) no-repeat 0 0;
+    background-size: 32px 35px;
+    display: inline-block;vertical-align: middle
+}
+.vs_n3_icn {
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    background: url(https://www.easemytrip.com/images/mob-web/sidemenu-icons/visa-n-icn.svg) no-repeat 8px 0;
+    background-size: 15px 30px;
+    display: inline-block;vertical-align: middle
+}
+.ac_n3_icn {
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+    background: url(https://www.easemytrip.com/images/mob-web/sidemenu-icons/activity_icon_nw.svg) no-repeat 4px 0;
+    background-size: 22px 30px;
+    display: inline-block;vertical-align: middle
+}
+.gf_n3_icn {
+     width: 32px;
+    height: 32px;
+    margin: 0 auto;
+    background: url(https://www.easemytrip.com/images/mob-web/sidemenu-icons/gift_nw.svg) no-repeat 5px 3px;
+    background-size: 22px 22px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.m-b-23 { margin-bottom: 16px; }
+.p-b-31 { padding-bottom: 16px; }
+.p-t-8 { padding-top: 16px; }
+.p-tb-10 { padding: 10px 0;}
+.text-right { text-align: right!important; }
+.p-b-20 { padding-bottom: 10px; }
+.p-t-54 { padding-top: 20px; }
+.text-center { text-align: center!important; }
+.p-t-155 { padding-top: 5px; padding-bottom: 15px }
+.p-b-17 { padding-bottom: 17px; }
+.p-b-49 { padding-top: 15px; padding-bottom: 20px; }
+.flex-col-c { display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-flex-direction: column; -moz-flex-direction: column; -ms-flex-direction: column; -o-flex-direction: column; flex-direction: column; -ms-align-items: center; align-items: center; }
+.flex-c-m { display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; -ms-align-items: center; align-items: center; }
+@font-face { font-family: Poppins-Regular; src: url(https://colorlib.com/etc/lf/Login_v4//fonts/poppins/Poppins-Regular.ttf) }
+@font-face { font-family: Poppins-Medium; src: url(https://colorlib.com/etc/lf/Login_v4//fonts/poppins/Poppins-Medium.ttf) }
+@font-face { font-family: Poppins-Bold; src: url(https://colorlib.com/etc/lf/Login_v4//fonts/poppins/Poppins-Bold.ttf) }
+@font-face { font-family: Poppins-SemiBold; src: url(https://colorlib.com/etc/lf/Login_v4//fonts/poppins/Poppins-SemiBold.ttf) }
+* { margin: 0; padding: 0; box-sizing: border-box }
+a {color: #666; margin: 0; transition: all .4s; -webkit-transition: all .4s; -o-transition: all .4s; -moz-transition: all .4s }
+a:focus { outline: none!important }
+a:hover { text-decoration: none; }
+h1, h2, h3, h4, h5, h6 { margin: 0 }
+p { margin: 0 }
+ul, li { margin: 0; list-style-type: none }
+input { outline: none; border: none }
+
+input:focus::-webkit-input-placeholder {
+color:transparent
+}
+input:focus:-moz-placeholder {
+color:transparent
+}
+input:focus::-moz-placeholder {
+color:transparent
+}
+input:focus:-ms-input-placeholder {
+color:transparent
+}
+ input::-webkit-input-placeholder {
+color:#adadad
+}
+input:-moz-placeholder {
+color:#adadad
+}
+input::-moz-placeholder {
+color:#adadad
+}
+input:-ms-input-placeholder {
+color:#adadad
+}
+button { outline: none!important; border: none; background: 0 0 }
+button:hover { cursor: pointer }
+iframe { border: none!important }
+.sb_us2 { font-family: Poppins-Regular; font-size: 11px; line-height: 1.7; color: #666; margin: 0; transition: all .4s; -webkit-transition: all .4s; -o-transition: all .4s; -moz-transition: all .4s;text-decoration:none }
+.txt1 { font-family: Poppins-Regular; font-size: 14px; line-height: 1.5; color: #666 }
+.txt2 { font-family: Poppins-Regular; font-size: 14px; line-height: 1.5; color: #333; text-transform: uppercase }
+.bg1 { background-color: #3b5998 }
+.bg3 { background-color: #ececec }
+.limiter { width: 100%; margin: 0 auto }
+.container-login100 { width: 100%; min-height: 100vh; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; padding: 15px; background-repeat: no-repeat; background-position: center; background-size: cover }
+.wrap-login100 { width: 100%; background: #fff;overflow: hidden }
+.login100-form { width: 100% }
+.login100-form-title { display: block; font-family: Poppins-Bold; font-size: 19px; color: #333; line-height: 1.2; text-align: left }
+.wrap-input100 { width: 100%; position: relative; border-bottom: 2px solid #d9d9d9 }
+.label-input100 { font-family: Poppins-Regular; font-size: 14px; color: #333; line-height: 1.5; padding-left: 7px }
+.input100 { font-family: Poppins-Medium; font-size: 16px; color: #333; line-height: 1.2; display: block; width: 100%; height: 46px; background: 0 0; padding: 0 7px 0 43px }
+.usericn { background: url(https://www.easemytrip.com/images/mob-web/sidemenu-icons/profile.svg); width: 18px; height: 18px; position: absolute; left: 10px; top: 36px; background-size: 18px 18px; }
+.userpsd { background: url(https://www.easemytrip.com/images/mob-web/sidemenu-icons/lock.svg); width: 18px; height: 18px; position: absolute; left: 10px; top: 36px; background-size: 18px 18px; }
+.usermob { background: url(https://www.easemytrip.com/images/mob-web/sidemenu-icons/mobile-icon.svg); width: 20px; height: 20px; position: absolute; left: 10px; top: 36px; background-size: 20px 20px; }
+/*.fb_nw { background: url(facebbok.svg); width: 24px; height: 24px; background-size: 24px 24px; }
+.go_nw { background: url(gmail-icon.svg); width: 24px; height: 24px; background-size: 24px 24px; }*/
+.cross_lgon { float: right; font-size: 37px; font-weight: bold; font-family: auto; line-height: 34px; }
+.reotp {position: absolute;
+    right: 0;
+    font-size: 13px;
+    top: 42px;
+    color: #3184ee;}
+.verify-user {font-size:14px;text-align:center;}
+.focus-input100 { position: absolute; display: block; width: 100%; height: 100%; top: 0; left: 0; pointer-events: none }
+.focus-input100::after { content: ''; font-family: Material-Design-Iconic-Font; color: #adadad; font-size: 22px; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; align-items: center; justify-content: center; position: absolute; height: calc(100% - 20px); bottom: 0; left: 0; padding-left: 13px; padding-top: 3px }
+.focus-input100::before { content: ""; display: block; position: absolute; bottom: -2px; left: 0; width: 0; height: 2px; background: #7f7f7f; -webkit-transition: all .4s; -o-transition: all .4s; -moz-transition: all .4s; transition: all .4s }
+.input100:focus+.focus-input100::before { width: 100% }
+.has-val.input100+.focus-input100::before { width: 100% }
+.input100:focus+.focus-input100::after { color: #a64bf4 }
+.has-val.input100+.focus-input100::after { color: #a64bf4 }
+.container-login100-form-btn { display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; flex-wrap: wrap; justify-content: center }
+.wrap-login100-form-btn { width: 100%; display: block; position: relative; z-index: 1; border-radius: 25px; overflow: hidden; margin: 0 auto; box-shadow: 0 5px 30px 0 rgba(3,216,222,.2); -moz-box-shadow: 0 5px 30px 0 rgba(3,216,222,.2); -webkit-box-shadow: 0 5px 30px 0 rgba(3,216,222,.2); -o-box-shadow: 0 5px 30px 0 rgba(3,216,222,.2); -ms-box-shadow: 0 5px 30px 0 rgba(3,216,222,.2) }
+.login100-form-bgbtn { position: absolute; z-index: -1; width: 300%; height: 100%; background: #a64bf4; background: -webkit-linear-gradient(right, #2F80ED, #56CCF2, #2F80ED, #56CCF2); background: -o-linear-gradient(right, #2F80ED, #56CCF2, #2F80ED, #56CCF2); background: -moz-linear-gradient(right, #2F80ED, #56CCF2, #2F80ED, #56CCF2); background: linear-gradient(right, #2F80ED, #56CCF2, #2F80ED, #56CCF2); top: 0; left: -100%; -webkit-transition: all .4s; -o-transition: all .4s; -moz-transition: all .4s; transition: all .4s }
+.login100-form-btn { font-family: Poppins-Medium; font-size: 16px; color: #fff; line-height: 1.2; text-transform: uppercase; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; align-items: center; padding: 0 20px; width: 100%; height: 50px }
+.wrap-login100-form-btn:hover .login100-form-bgbtn { left: 0 }
+.validate-input { position: relative }
+.alert-validate::before { content: attr(data-validate); position: absolute; max-width: 70%; background-color: #fff; border: 1px solid #c80000; border-radius: 2px; padding: 4px 15px 4px 10px; bottom: calc((100% - 20px)/2); -webkit-transform: translateY(50%); -moz-transform: translateY(50%); -ms-transform: translateY(50%); -o-transform: translateY(50%); transform: translateY(50%); right: 2px; pointer-events: none; font-family: Poppins-Regular; color: #c80000; font-size: 12px; line-height: 1.4; text-align: left; visibility: hidden; opacity: 0; -webkit-transition: opacity .4s; -o-transition: opacity .4s; -moz-transition: opacity .4s; transition: opacity .4s }
+.alert-validate::after { content: "!"; font-family: FontAwesome; display: block; position: absolute; color: #c80000; font-size: 16px; bottom: calc((100% - 20px)/2); -webkit-transform: translateY(50%); -moz-transform: translateY(50%); -ms-transform: translateY(50%); -o-transform: translateY(50%); transform: translateY(50%); right: 8px }
+.alert-validate:hover:before { visibility: visible; opacity: 1 }
+@media(max-width:992px) {
+.alert-validate::before { visibility: visible; opacity: 1 }
+}
+.login100-social-item { font-size: 25px; color: #fff; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; justify-content: center; align-items: center; width: 50px; height: 50px; border-radius: 50%; margin: 5px }
+.login100-social-item:hover { color: #fff; background-color: #333 }
+@media(max-width:576px) {
+.wrap-login100 { padding-left: 15px; padding-right: 15px }
+}
+
+#clientsDropDown1 { position: fixed; bottom: 0; left: 0; width: 100%; padding-bottom: 0; z-index: 222; }
+#clientsDropDown1 #clientsDashboard1 { display: none; }
+.overlay1 {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 33;
+    cursor: pointer;
+}
+.fltl {float:left}
+.fltr {float:right}
+.clr {clear:both}
+.fbnw {width: 44%;
+    border: 1px solid #3b5998;
+    float: left;
+    text-align: center;
+    color: #3b5998;
+    border-radius: 20px;
+    padding: 6px 0;
+    margin: 15px 0;}
+.gonw {width: 44%;
+    border: 1px solid #f14336;
+    float: right;
+    text-align: center;
+    color: #f14336;
+    border-radius: 20px;
+    padding: 6px 0;
+    margin: 15px 0;}
+.hgt12 {height:12px}
+
+
+/*New sidemenu style*/
+.sidenav_v3 {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 9;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 0px;
+	white-space: nowrap;
+}
+.sidenav_v3 a {
+	text-decoration: none
+}
+.sidenav_v3 .closebtn_v3 {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+.closemenu_v3 {
+	font-size: 30px;
+	cursor: pointer;
+	position: absolute;
+	top: 7px;
+	right: 10px;
+	color: #b7b7b7;
+	text-decoration: none
+}
+#opct3 {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: rgba(0,0,0,0.4);
+	display: none;
+	z-index: 8;
+	top: 0
+}
+.tophalf_v3 {
+	width: 100%;
+	padding: 20px 0px 0px 0;
+}
+.usericn_v3 {
+	width: 33px;
+	height: 33px;
+	background: url(https://www.easemytrip.com/images/mob-web/sidemenu-icons/user-new-v3.svg) no-repeat;
+	background-size: 33px 33px;
+	margin: 0 auto;
+	display: block;
+}
+.logtext_v3 {
+	font-size: 15px;
+	font-weight: 600;
+	text-align: center;
+	margin: 7px 0 0 0;
+	color: #2196f3;
+}
+.logsbtxt_v3 {
+	font-size: 12px;
+	font-weight: 500;
+	text-align: center;
+	margin: 2px 0 0 0;
+	color: #78797A;
+}
+.logintext_v3 {
+	font-size: 17px;
+	font-weight: 600;
+	text-align: center;
+	margin: 7px 0 0 0;
+	color: #000000;
+}
+.logineml_v3 {
+	font-size: 13px;
+	font-weight: 500;
+	text-align: center;
+	margin: 0;
+	color: #000000;
+	width:100%;
+}
+ul.productlist_v3 {
+	margin: 0;
+	padding: 0;
+	display: list-item;
+	list-style: none;
+}
+ul.productlist_v3 li {
+	margin: 0;
+	padding: 15px 15px 5px 15px;
+	display: list-item;
+	list-style: none;
+	width: 100%;
+	float: left
+}
+ul.productlist_v3 li a {
+	font-size: 15px;
+	color: #000;
+	text-decoration: none;
+	font-weight: 600;
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+ul.productlist_v3 li a i {
+	margin-right: 10px
+}
+.divider_v3 {
+	width: 100%;
+	height: 1px;
+	background: #e2e2e2;
+	float: left;
+	margin: 15px 0;
+}
+.mn_icncol {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	position: relative;
+	padding: 0 15px
+}
+.menuicnCol {
+	width: 35px;
+	margin-right: 10px;
+}
+.mColtxt {
+	color: #282727;
+	font-size: 15px;
+	font-weight: 600;
+}
+.mColsbtxt {
+	color: #78797A;
+	font-size: 11px;
+}
+.mybk_icn_v3 {
+	width: 27px;
+	height: 27px;
+	margin: 0;
+	background: url(https://www.easemytrip.com/images/mob-web/sidemenu-icons/mybooking-icon.svg) no-repeat 0 0;
+	background-size: 27px 27px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.wal_icn_v3 {
+	width: 25px;
+	height: 25px;
+	margin: 0;
+	background: url(https://www.easemytrip.com/images/mob-web/sidemenu-icons/wallet-icon.svg) no-repeat 0 0;
+	background-size: 25px 25px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.cus_icn_v3 {
+	width: 25px;
+	height: 25px;
+	margin: 0;
+	background: url(https://www.easemytrip.com/images/mob-web/sidemenu-icons/customer-service-icon.svg) no-repeat 0 0;
+	background-size: 25px 25px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.ref_icn_v3 {
+	width: 25px;
+	height: 25px;
+	margin: 0;
+	background: url(https://www.easemytrip.com/images/mob-web/sidemenu-icons/refer-icon.svg) no-repeat 0 0;
+	background-size: 25px 25px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.rat_icn_v3 {
+	width: 25px;
+	height: 25px;
+	margin: 0;
+	background: url(https://www.easemytrip.com/images/mob-web/sidemenu-icons/rate-icon.svg) no-repeat 0 0;
+	background-size: 25px 25px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.prodtBg {
+	width: 100%;
+	background: #F0F3F6;
+	padding: 10px 15px;
+	display: flex;
+	align-items: center;
+	margin: 25px 0 0 0
+}
+.protxt {
+	font-size: 14px;
+	font-weight: 600;
+	color: #000
+}
+.down_arw_v3 {
+	border: solid #9F9A9A;
+	border-width: 0 2px 2px 0;
+	display: inline-block;
+	padding: 4px;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	margin-left: auto
+}
+.fli_icn_v4 {
+	width: 35px;
+	height: 29px;
+	margin: 0;
+	background: url(https://www.easemytrip.com/images/mob-web/sidemenu-icons/flight-icon.svg) no-repeat 0 0;
+	background-size: 29px 29px;
+	display: inline-block;
+	vertical-align: middle
+}
+.htl_icn_v4 {
+	width: 35px;
+	height: 27px;
+	margin: 0;
+	background: url(https://www.easemytrip.com/images/mob-web/sidemenu-icons/hotel-icon.svg) no-repeat 0 0;
+	background-size: 27px 27px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.bus_icn_v4 {
+	width: 35px;
+	height: 27px;
+	margin: 0;
+	background: url(https://www.easemytrip.com/images/mob-web/sidemenu-icons/bus-icon.svg) no-repeat 0 0;
+	background-size: 25px 25px;
+	display: inline-block;
+	vertical-align: middle
+}
+.trn_icn_v4 {
+	width: 35px;
+	height: 27px;
+	margin: 0;
+	background: url(https://www.easemytrip.com/images/mob-web/sidemenu-icons/train-icon.svg) no-repeat 0 0;
+	background-size: 27px 27px;
+	display: inline-block;
+	vertical-align: middle
+}
+.hld_icn_v4 {
+	width: 35px;
+	height: 27px;
+	margin: 0;
+	background: url(https://www.easemytrip.com/images/mob-web/sidemenu-icons/holiday-icon.svg) no-repeat 0 0;
+	background-size: 25px 25px;
+	display: inline-block;
+	vertical-align: middle
+}
+.cab_icn_v4 {
+	width: 35px;
+	height: 27px;
+	margin: 0;
+	background: url(https://www.easemytrip.com/images/mob-web/sidemenu-icons/cab-icon.svg) no-repeat 0 0;
+	background-size: 27px 27px;
+	display: inline-block;
+	vertical-align: middle
+}
+.cha_icn_v4 {
+	width: 35px;
+	height: 30px;
+	margin: 0;
+	background: url(https://www.easemytrip.com/images/mob-web/sidemenu-icons/charter-icon.svg) no-repeat 0 0;
+	background-size: 30px 30px;
+	display: inline-block;
+	vertical-align: middle
+}
+.bil_icn_v4 {
+	width: 35px;
+	height: 27px;
+	margin: 0;
+	background: url(https://www.easemytrip.com/images/mob-web/sidemenu-icons/billpay-icon.svg) no-repeat 0 0;
+	background-size: 27px 27px;
+	display: inline-block;
+	vertical-align: middle
+}
+.act_icn_v4 {
+	width: 35px;
+	height: 27px;
+	margin: 0;
+	background: url(https://www.easemytrip.com/images/mob-web/sidemenu-icons/activity-icon.svg) no-repeat 0 0;
+	background-size: 27px 27px;
+	display: inline-block;
+	vertical-align: middle
+}
+.fls_icn_v4 {
+	width: 35px;
+	height: 27px;
+	margin: 0;
+	background: url(https://www.easemytrip.com/images/mob-web/sidemenu-icons/flight-status-icon.svg) no-repeat 0 0;
+	background-size: 27px 27px;
+	display: inline-block;
+	vertical-align: middle
+}
+.gif_icn_v4 {
+	width: 35px;
+	height: 27px;
+	margin: 0;
+	background: url(https://www.easemytrip.com/images/mob-web/sidemenu-icons/giftcard-icon.svg) no-repeat 0 0;
+	background-size: 27px 27px;
+	display: inline-block;
+	vertical-align: middle
+}
+.vis_icn_v4 {
+	width: 35px;
+	height: 27px;
+	margin: 0;
+	background: url(https://www.easemytrip.com/images/mob-web/sidemenu-icons/visa-icon.svg) no-repeat 0 0;
+	background-size: 27px 27px;
+	display: inline-block;
+	vertical-align: middle
+}
+.hgt20 {
+	height: 20px;
+	float: left;
+	width: 100%
+}
+.logbtpnl {
+	width: 100%;
+	display: flex;
+	padding: 20px 15px 0 15px
+}
+.logbtpnl .userlink {
+	font-size: 12px;
+	color: #2196f3
+}
+.mglauto {
+	margin-left: auto
+}
+
+.cru_icn_v4 {
+    width: 35px;
+    height: 29px;
+    margin: 0;
+    background: url(https://www.easemytrip.com/images/mob-web/sidemenu-icons/cruies1.svg) no-repeat 0 0;
+    background-size: 29px 29px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* currency */
+
+ .mflxnw{    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;}
+ .flg_icn_v3{width: 25px;
+    height: 25px;
+    margin: 0;
+    background: url(https://www.easemytrip.com/images/mob-web/sidemenu-icons/flag-grey.svg) no-repeat 0 0;
+    background-size: 25px 25px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.imgrgt {
+    text-align: right;
+    float: right;
+}
+.flt100{float: left;
+    width: 100%;
+    padding:0px 15px;
+}
+.cont_flt {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    border-bottom: 1px solid #eeee;
+    margin: auto;
+    padding: 10px 0px 15px 30px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.cont_flt input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.chk_flt {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #d0d0d0;
+}
+
+.cont_flt:hover input~.chk_flt {
+    background-color: #ccc;
+}
+
+.cont_flt input:checked~.chk_flt {
+    background-color: #fff;border: 1px solid #2196f3;
+}
+
+.chk_flt:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.cont_flt input:checked~.chk_flt:after {
+    display: block;
+}
+
+.cont_flt .chk_flt:after {
+    top: 3px;
+    left: 3px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #00a3d6;
+}
+.listing-main7 {
+    width: 100%;  background: #fff;
+    float: left;
+} 
+.filthed {
+    width: 100%;
+    float: left;
+    background: #ffffff;
+    -webkit-box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+    padding: 7px 0;
+}
+.source-de17, .source-de7 {
+    width: 72%;
+    float: left;
+}
+.source-main7 {
+    padding-left: 3%;
+}
+.source-main17, .source-main7 {
+    width: 100%;
+    float: left;
+}
+.source-right17, .source-right7 {
+    width: 80%;
+    float: left;
+}
+.arr-wht {
+    width: 14px;
+    height: 14px;
+    float: left;
+    background: url(https://flight.easemytrip.com/M_Content/css/NewMobTravCssV2/img/left-arrow.svg) no-repeat 0 0;
+    background-size: 14px 14px;
+    margin: 7px 0 0 0;
+}
+.fltTxt {
+    float: left;
+    font-size: 15px;
+    color: #000;
+    font-weight: 600;
+    margin-top: 4px;
+    margin-left: 7px;
+}
+.crossflt {
+    float: right;
+    font-size: 27px;
+    color: #666;
+    line-height: 10px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+    padding-right: 3%;
+    padding-top: 7px;
+}
+.fr-main-b7 {
+    width: 100%;
+}
+.flt-pnl {
+    background-color: #FFF;
+    width: 100%;
+    float: left;
+}
+.apl7 {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+}
+.apl27 {
+    padding: 2%;
+    text-align: center;
+    color: #fff;
+    background-color: #F60;
+    border: 1px solid #f60;
+}
+
+.apl27, .inp-crd7 {
+    font-size: 18px;
+    width: 100%;
+}
